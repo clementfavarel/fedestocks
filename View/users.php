@@ -32,7 +32,14 @@
         </div>
     </nav>
     <div class="container-fluid mt-4">
-        <h1 class="mt-2">Liste des utilisateurs</h1>
+        <div class="d-flex align-items-center">
+            <div class="col-6">
+                <h1 class="mt-2">Liste des utilisateurs</h1>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <a class="btn btn-success" href="View/user/create.php">Ajouter</a>
+            </div>
+        </div>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead class="table-primary">
@@ -41,6 +48,8 @@
                         <th>Prénom</th>
                         <th>Nom</th>
                         <th>Email</th>
+                        <th>Modifier</th>
+                        <th>Supprimer</th>
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
@@ -50,6 +59,8 @@
                             <td><?= $user['prenom'] ?></td>
                             <td><?= $user['nom'] ?></td>
                             <td><?= $user['email'] ?></td>
+                            <td class="text-center"><a href="View/user/update"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                            <td class="text-center"><a href="View/user/delete"><i class="fa-solid fa-trash text-danger"></i></a></td>
                         </tr>
                     <?php endforeach ?>
                 </tbody>

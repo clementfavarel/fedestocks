@@ -31,8 +31,15 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid mt-4">
-        <h1 class="mt-2">Liste des produits</h1>
+    <div class="container-fluid mt-2">
+        <div class="d-flex align-items-center">
+            <div class="col-6">
+                <h1 class="mt-2">Liste des produits</h1>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <a class="btn btn-success" href="View/product/create.php">Ajouter</a>
+            </div>
+        </div>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead class="table-primary">
@@ -43,6 +50,8 @@
                         <th>Fait le</th>
                         <th>Fait à</th>
                         <th>Fait par</th>
+                        <th>Modifier</th>
+                        <th>Supprimer</th>
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
@@ -54,6 +63,8 @@
                             <td><?= date_format(date_create($product['fait_le']), 'd/m/Y') ?></td>
                             <td><?= $product['fait_a'] ?></td>
                             <td><?= Model::getUserFirstnameById($product['par_utilisateur']) ?></td>
+                            <td class="text-center"><a href="View/product/update"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                            <td class="text-center"><a href="View/product/delete"><i class="fa-solid fa-trash text-danger"></i></a></td>
                         </tr>
                     <?php endforeach ?>
                 </tbody>
