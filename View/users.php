@@ -31,15 +31,8 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid mt-4">
-        <div class="d-flex align-items-center">
-            <div class="col-6">
-                <h1 class="mt-2">Liste des utilisateurs</h1>
-            </div>
-            <div class="col-6 d-flex justify-content-end">
-                <a class="btn btn-success" href="View/user/create.php">Ajouter</a>
-            </div>
-        </div>
+    <div class="container-fluid mt-2">
+        <h1 class="mt-2">Liste des utilisateurs</h1>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead class="table-primary">
