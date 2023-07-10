@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 *,
 *::before,
 *::after {
@@ -5,10 +6,31 @@
     margin: 0;
     padding: 0;
 }
-
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+}
 .navbar-toggler:hover {
     border: 1px solid #333;
 }
 .navbar-toggler:focus {
     box-shadow: none;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid-center {
+    height: 100%;
+    display: grid;
+    place-items: center;
 }

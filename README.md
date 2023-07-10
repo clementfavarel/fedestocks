@@ -34,7 +34,7 @@ Il serait optimal d'ajouter plusieurs interfaces :
 -   Authentification
 
 ** Technologies utilisées : **
-Par soucis de compatibilité, de compétences des développeurs et de facilité d'utilisation, nous avons choisi de partir sur une Web App (PWA) et d'utiliser les technologies suivantes :
+Par soucis de compatibilité, de compétences des développeurs et de facilité d'utilisation, nous avons choisi de partir sur unsite web convertible en Web App (PWA) et d'utiliser les technologies suivantes :
 
 -   HTML
 -   CSS
@@ -42,3 +42,7 @@ Par soucis de compatibilité, de compétences des développeurs et de facilité 
 -   JavaScript
 -   PHP
 -   MySQL
+
+## Spécifications
+
+Quand le projet est cloné, ne pas oublier de créer le fichier config/config.php qui sert à se connecter à la base de données
