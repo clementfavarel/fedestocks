@@ -71,6 +71,8 @@ $users = $stmt->fetchAll();
 
                         if ($user['role'] = 'admin') {
                             echo '<th>Modifier</th>';
+                        } else {
+                            exit();
                         }
                         ?>
                     </tr>
@@ -94,6 +96,8 @@ $users = $stmt->fetchAll();
 
                             if ($user['role'] = 'admin') {
                                 echo '<td class="text-center"><a href="user/update.php?user_id=' . $user_id . '"><i class="fa-solid fa-pen-to-square"></i></a></td>';
+                            } else {
+                                exit();
                             }
                             ?>
                         </tr>
