@@ -35,6 +35,7 @@ if (!isset($_SESSION['user'])) {
                         <option value="Toulon">Toulon</option>
                         <option value="La Garde">La Garde</option>
                         <option value="Draguignan">Draguignan</option>
+                        <option value="Chalucet">Chalucet</option>
                     </select>
                 </div>
                 <input type="hidden" name="par_utilisateur" value="<?= $_SESSION['user'] ?>">
