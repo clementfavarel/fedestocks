@@ -4,7 +4,7 @@
 
 ### Présentation du commanditaire
 
-La FEdération Des ETudiants Toulonnais (FEDET) cherche à répondre à la problématique de gestion des stocks des distributions alimentaires et de transition informatique et cherche un moyen de rassembler les informations conçernant les actions de la fédération et de ses associations membres sous forme d'applications qui puissent être accessibles par tous.
+La FEdération Des Etudiants Toulonnais (FEDET) cherche à répondre à la problématique de gestion des stocks des distributions alimentaires et de transition informatique et cherche un moyen de rassembler les informations conçernant les actions de la fédération et de ses associations membres sous forme d'applications qui puissent être accessibles par tous.
 
 ### Périmètre du projet
 
