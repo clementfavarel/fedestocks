@@ -45,4 +45,4 @@ Par soucis de compatibilité, de compétences des développeurs et de facilité 
 
 ## Spécifications
 
-Quand le projet est cloné, ne pas oublier de créer le fichier config/config.php qui sert à se connecter à la base de données
+Quand le projet est cloné, n'oubliez pas de créer le fichier config/config.php qui sert à se connecter à la base de données
